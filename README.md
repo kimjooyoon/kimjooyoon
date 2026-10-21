@@ -13,3 +13,9 @@ A current focus is **automatic service-policy changes**: explain which requests 
 Development lives in [meta-ontology-go](https://github.com/kimjooyoon/meta-ontology-go) (the language) and [gooo-go-ports](https://github.com/kimjooyoon/gooo-go-ports) (ports, original policy examples, and reproducible checks). Reproducible bug reports and examples from real workflows help shape the work.
 
 The [language-bridge workbench](https://github.com/kimjooyoon/gooo-language-bridge) keeps native language comparisons, reproducible examples, and upstream contribution evidence together.
+
+## Selected OSS work
+
+- **Bubbles:** [submitted fix](https://github.com/charmbracelet/bubbles/pull/1072) preserves the newline when Delete removes a line's final character. [Native/Gooo reproduction](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/delete-forward-newline.md).
+- **Chroma:** [submitted fix](https://github.com/alecthomas/chroma/pull/1411) recognizes Go imaginary literals such as `0b10i` and `0x1p-2i`, checked against native Go.
+- **Caddy:** [reproduced PR review](https://github.com/caddyserver/caddy/pull/8248#discussion_r4342769424) shows how a value-only cache turns unknown placeholders into known empty values.
