@@ -14,8 +14,12 @@ Development lives in [meta-ontology-go](https://github.com/kimjooyoon/meta-ontol
 
 The [language-bridge workbench](https://github.com/kimjooyoon/gooo-language-bridge) keeps native language comparisons, reproducible examples, and upstream contribution evidence together.
 
+Start with a concrete comparison: [string-length units across Go, Python and JavaScript](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/string-length-units.md), or [execution versus completion input intent](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/completion-input-intent.md).
+
 ## Selected OSS work
 
+- **urfave/cli:** [submitted fix](https://github.com/urfave/cli/pull/2485) retains unfinished short-flag groups for shell completion callbacks. [Six platform/version CI jobs passed](https://github.com/urfave/cli/actions/runs/39697751487); the [native/Gooo guide](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/completion-input-intent.md) explains the intent boundary.
+- **Goja:** [reported normalization bug](https://github.com/dop251/goja/issues/820) replaces lone UTF-16 surrogates with U+FFFD. The [24-case Goja/Node comparison](https://gist.github.com/kimjooyoon/cdc0106aefec97d80b8fbd75ac6ff5aa/5d39c4a5e3871541a0372e9b57424ed32444628e) includes a pinned reproducer, regression tests and raw results.
 - **Bubbles:** [submitted fix](https://github.com/charmbracelet/bubbles/pull/1072) preserves the newline when Delete removes a line's final character. [Native/Gooo reproduction](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/delete-forward-newline.md).
 - **Chroma:** [submitted fix](https://github.com/alecthomas/chroma/pull/1411) recognizes Go imaginary literals such as `0b10i` and `0x1p-2i`, checked against native Go.
 - **Caddy:** [reproduced PR review](https://github.com/caddyserver/caddy/pull/8248#discussion_r4342769424) shows how a value-only cache turns unknown placeholders into known empty values.
