@@ -16,6 +16,8 @@ The [language-bridge workbench](https://github.com/kimjooyoon/gooo-language-brid
 
 Start with a concrete comparison: [string-length units across Go, Python and JavaScript](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/string-length-units.md), or [execution versus completion input intent](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/completion-input-intent.md).
 
+Compare Goja or Sobek with Node.js using [source-pinned JavaScript snapshots](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/examples/js-differential/README.md). Supply a small script and retain exact source revisions, original outputs and per-case differences; the guide includes a 54-observation Sobek example. No model or API key is required.
+
 ## Selected OSS work
 
 - **urfave/cli:** [submitted fix](https://github.com/urfave/cli/pull/2485) retains unfinished short-flag groups for shell completion callbacks. [Six platform/version CI jobs passed](https://github.com/urfave/cli/actions/runs/39697751487); the [native/Gooo guide](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/completion-input-intent.md) explains the intent boundary.
