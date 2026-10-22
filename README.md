@@ -14,6 +14,8 @@ Development lives in [meta-ontology-go](https://github.com/kimjooyoon/meta-ontol
 
 The [language-bridge workbench](https://github.com/kimjooyoon/gooo-language-bridge) keeps native language comparisons, reproducible examples, and upstream contribution evidence together.
 
+Browse the [experiment catalog](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/experiments.md) for browser demos, native comparisons and Gooo bridges, with input bounds and reproduction steps for each.
+
 Start with a concrete comparison: [string-length units across Go, Python and JavaScript](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/string-length-units.md), or [execution versus completion input intent](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/docs/completion-input-intent.md).
 
 Compare Goja or Sobek with Node.js using [source-pinned JavaScript snapshots](https://github.com/kimjooyoon/gooo-language-bridge/blob/main/examples/js-differential/README.md). Supply a small script and retain exact source revisions, original outputs and per-case differences; the guide includes a 54-observation Sobek example. No model or API key is required.
